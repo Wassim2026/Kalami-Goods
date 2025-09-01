@@ -24060,12 +24060,12 @@ section.removal-needs-section .removal-needs-box .removal-image p a:hover {
     -o-box-shadow: 0 12px 25px #b9bbd2
 }
 
-section.moving-company-section {
+/* section.moving-company-section {
     position: relative;
     padding: 100px 0;
     background: #111 url(../upload/banners/1.jpg) 50% no-repeat;
     background-size: cover
-}
+} */
 
 @media (-webkit-min-device-pixel-ratio:1.5),
 all and (-o-min-device-pixel-ratio:3/2),
