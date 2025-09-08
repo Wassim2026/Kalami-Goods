@@ -218,7 +218,7 @@
 .owl-theme .owl-controls {
     margin-top: 10px;
     text-align: center;
-	display:block;
+	  display:block;
 }
 .owl-theme .owl-controls .owl-nav [class*="owl-"] {
     /*border-radius: 3px;
@@ -254,3 +254,4 @@
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: none repeat scroll 0 0 #869791;
 }
+

@@ -452,7 +452,7 @@ table tr th {
 }
 
 .secpadd {
-    padding: 70px 0px;
+    padding: 60px 0px;
 }
 
 .secpadd2 {
@@ -464,8 +464,8 @@ table tr th {
 }
 
 .secpaddlf {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 @-webkit-keyframes fadeIn {
@@ -1079,7 +1079,7 @@ div.aligncenter,
 .site-header {
     background-color: #fff;
     position: relative;
-    padding: 26px 0;
+    padding: 10px 0;
 }
 
 .site-logo h1,
@@ -1421,13 +1421,25 @@ div.aligncenter,
 }
 
 .page-header .header-title {
-    padding-top: 120px;
+    padding-top: 180px !important;
     padding-bottom: 120px;
     text-align: center;
     background-attachment: fixed;
     position: relative;
     background: url(../images/bg/page-header-bg.jpg) center center no-repeat fixed;
     background-size: cover;
+    height: 50vh;
+}
+
+@media (max-width: 480px) {
+    .page-header .header-title {
+        height: 0 !important;
+        padding: 140px 0 !important;
+    }
+
+    .slotholder .tp-revslider-slidesli {
+        height: 79% !important;
+    }
 }
 
 .page-header .breadcrumb-area {
@@ -5761,7 +5773,7 @@ ul.service-menu .children li:last-child {
 }
 
 .footer-sidebars {
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 
@@ -8320,4 +8332,27 @@ ul.service-menu .children li:last-child {
     font-weight: 400;
     font-style: normal;
     margin: 0;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 80px;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
 }

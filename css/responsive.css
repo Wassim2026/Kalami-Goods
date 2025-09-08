@@ -302,6 +302,29 @@
     height: 40px;
     line-height: 30px;
   }
+
+  .whatsapp-float {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    line-height: 60px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 80px;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
+}
   .tparrows {display:none!important;}
   .contact_servbox h2 {
 	font-size: 38px;
@@ -671,7 +694,7 @@
         padding-top: 140px;
     }
     .widgets-area {
-        padding-top: 60px;
+        padding-top: 20px;
     }
     .service-sidebar .download .item-download span {
         font-size: 10px;
@@ -699,6 +722,30 @@
         font-size: 24px;
         border-width: 2px;
     }
+
+    .whatsapp-float {
+        position: fixed;
+        bottom: 30px;
+        right: 23px;
+        background-color: #25d366;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 24px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        margin-bottom: 80px;
+    }
+    
+    .whatsapp-float:hover {
+        background-color: #128C7E;
+        transform: scale(1.05);
+    }
+
     body .fh-testimonials.style-2 .testi-star:before,
     body .fh-testimonials.style-2 .testi-star:after {
         display: none;
@@ -1306,6 +1353,7 @@ display:none;
 	display: inline-block;
 	position: relative;
 }
+
 }
 
 @media (max-width: 414px) {
@@ -1472,6 +1520,7 @@ display:none;
     .woocommerce form.checkout table.shop_table tfoot td {
         padding: 10px;
     }
+
 }
 
 @media only screen and (max-width: 1200px) {
