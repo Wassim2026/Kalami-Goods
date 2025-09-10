@@ -8364,3 +8364,21 @@ ul.service-menu .children li:last-child {
     background-color: #128C7E;
     transform: scale(1.05);
 }
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* pushes items to right */
+  gap: 20px; /* spacing */
+}
+
+.menu-phone a {
+  font-weight: bold;
+  color: #fff; /* adjust color */
+}
+
+.menu-phone i {
+  margin-right: 6px;
+  color: #ff6521; /* highlight phone icon */
+}
+
