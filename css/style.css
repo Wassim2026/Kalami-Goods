@@ -8369,7 +8369,7 @@ ul.service-menu .children li:last-child {
   display: flex;
   align-items: center;
   justify-content: flex-end; /* pushes items to right */
-  gap: 20px; /* spacing */
+  /* gap: 5px; spacing */
 }
 
 .menu-phone a {
