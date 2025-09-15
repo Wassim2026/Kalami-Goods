@@ -1871,7 +1871,7 @@ div.aligncenter,
     display: block;
     float: left;
     position: relative;
-    padding: 9px 19px;
+    padding: 30px 19px 19px 9px;
 }
 
 .nav ul.menu>li>a {
