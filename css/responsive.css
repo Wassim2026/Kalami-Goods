@@ -230,10 +230,10 @@
 	Footer
 	--------------------------------------------------------------*/
   .footer-sidebars {
-    padding-bottom: 50px;
+    padding-bottom: 0px !important;
   }
   .footer-sidebar {
-    margin-bottom: 30px;
+    margin-bottom: 0px !important;
   }
   .site-footer .footer-copyright,
   .site-footer .footer-text {
@@ -1005,7 +1005,7 @@
         padding-bottom: 15px;
     }
     .footer-sidebar {
-        padding-bottom: 30px;
+        padding-bottom: 0px !important;
         margin-left: 0px !important;
     }
     div.fh-service .item-service.col-md-4:nth-child( 3n + 1),
